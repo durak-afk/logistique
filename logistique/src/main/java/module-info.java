@@ -3,6 +3,6 @@ module com.example.logistique {
     requires javafx.fxml;
 
 
-    opens com.example.logistique to javafx.fxml;
+    opens com.example.logistique.vues to javafx.fxml;
     exports com.example.logistique;
 }
